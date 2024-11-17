@@ -14,7 +14,7 @@ default_args = {
 default_tags = ['python', 'Linked_learning', default_args['owner']]
 
 def read_csv_file():
-    df = pd.read_csv('/opt/airflow/dags/data_transformation/datasets/data.csv')
+    df = pd.read_csv('/opt/airflow/dags/repo/airflow/dags/data_transformation/datasets/insurance.csv')
     print(df)
 
     return df.to_json()

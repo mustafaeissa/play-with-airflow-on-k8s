@@ -15,7 +15,7 @@ dag = DAG(
     description = 'Our first "Hello World" DAG!',
     default_args = default_args,
     start_date = None,
-    schedule_interval = None,
+    schedule = None,
     tags = ['beginner', 'bash', 'hello world', 'mustafa', 'Linked_learning']
 )
 

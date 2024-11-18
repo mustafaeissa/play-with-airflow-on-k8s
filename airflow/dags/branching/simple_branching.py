@@ -5,6 +5,7 @@ from airflow.utils.dates import days_ago
 
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator, BranchPythonOperator
+from random import choice
 
 
 default_args = {

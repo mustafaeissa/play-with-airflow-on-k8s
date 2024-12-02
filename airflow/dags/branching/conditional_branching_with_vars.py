@@ -113,7 +113,7 @@ def groupby_region_smoker(ti):
         'charges': 'mean'
     }).reset_index()
 
-    region_df.to_csv(OUTPUT_PATH.format('grouped_by_smoker'), index=False)
+    smoker_df.to_csv(OUTPUT_PATH.format('grouped_by_smoker'), index=False)
 
     
 with DAG(
